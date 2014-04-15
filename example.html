@@ -1,0 +1,18 @@
+<form id="payment-info" action="/submit-payment">
+  <input type="text" data-recurly="number">
+  <input type="text" data-recurly="cvv">
+  <input type="text" data-recurly="month">
+  <input type="text" data-recurly="year">
+  <input type="text" data-recurly="first_name">
+  <input type="text" data-recurly="last_name">
+
+  <input type="text" data-recurly="address1">
+  <input type="text" data-recurly="address2">
+  <input type="text" data-recurly="country">
+  <input type="text" data-recurly="city">
+  <input type="text" data-recurly="state">
+  <input type="text" data-recurly="zip">
+
+  <input type="hidden" name="recurly-token" data-recurly="token">
+  <button>submit</button>
+</form>
