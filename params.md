@@ -1,6 +1,6 @@
-## recurly.token parameters
+### recurly.token parameters
 
-### required
+#### required
 
 first_name
 last_name
@@ -9,7 +9,7 @@ month
 year
 cvv
 
-### optional. may be required depending on site configuration at `/configuration/edit`
+optional, though may be required depending on site configuration at `/configuration/edit`
 
 address1
 address2
